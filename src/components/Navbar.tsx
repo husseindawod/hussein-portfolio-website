@@ -15,7 +15,7 @@ export default function Navbar(): JSX.Element {
                     </div>
                     <div className="hidden sm:block">
                         <div className="text-lg font-semibold text-indigo-400">Hussein Dawod</div>
-                        <div className="text-xs text-gray-400 -mt-1">Frontend / Fullstack</div>
+                        <div className="text-xs text-gray-400 -mt-1">SpringBoot Developer</div>
                     </div>
                 </a>
 

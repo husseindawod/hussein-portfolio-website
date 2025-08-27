@@ -2,7 +2,6 @@ import React, {JSX} from "react";
 
 function Contact(): JSX.Element {
     const [form, setForm] = React.useState({ name: "", email: "", message: "" });
-    const [saved, setSaved] = React.useState(false);
 
     function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
         setForm(prev => ({ ...prev, [e.target.name]: e.target.value }));
@@ -11,8 +10,6 @@ function Contact(): JSX.Element {
     function handleSubmit(e: React.FormEvent) {
         e.preventDefault();
         console.log("Send contact (simulate)", form);
-        setSaved(true);
-        setTimeout(() => setSaved(false), 3500);
         setForm({ name: "", email: "", message: "" });
     }
 
@@ -53,7 +50,7 @@ function Contact(): JSX.Element {
                     <button type="submit" className="bg-indigo-500 text-white px-6 py-3 rounded-lg hover:bg-indigo-600 transition">
                         Send message
                     </button>
-                    {saved && <div className="text-sm text-emerald-400">Message sent (simulated)</div>}
+                    <div className="text-sm text-gray-400">or email at husseindawod18@gmail.com</div>
                 </div>
             </div>
         </form>
