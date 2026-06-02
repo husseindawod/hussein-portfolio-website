@@ -29,6 +29,7 @@ export default function Hero(): JSX.Element {
                     <div className="relative group">
                         <div className="absolute inset-0 bg-gradient-to-br from-indigo-500 to-cyan-400 rounded-3xl blur-2xl opacity-20 group-hover:opacity-40 transition duration-500"></div>
                         <div className="w-56 h-56 sm:w-72 sm:h-72 rounded-3xl overflow-hidden shadow-2xl relative transform rotate-3 group-hover:rotate-0 transition-all duration-500 border-4 border-gray-800">
+                            <img src="/ProfilePicture.jpeg" alt="Hussein Dawod" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" />
                         </div>
                     </div>
                 </div>
