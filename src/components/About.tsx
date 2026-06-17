@@ -59,12 +59,6 @@ export default function About(): JSX.Element {
                             </div>
                         </div>
                     </div>
-
-                    <div className="p-8 rounded-3xl border border-gray-700/50 bg-gray-900/40">
-                        <p className="text-gray-400 text-sm italic leading-relaxed">
-                            "I focus on writing clean, maintainable code and staying ahead of the curve with emerging technologies."
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>
