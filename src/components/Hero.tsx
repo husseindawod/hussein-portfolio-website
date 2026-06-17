@@ -9,10 +9,10 @@ export default function Hero(): JSX.Element {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
                 <div className="text-center md:text-left order-2 md:order-1">
                     <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.1] tracking-tight text-white">
-                        Full-stack <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-300">Next.js & Django</span> Developer.
+                        Full-Stack <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-300">Application Builder</span> (AI-Assisted).
                     </h1>
                     <p className="mt-6 text-gray-400 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto md:mx-0">
-                        I build scalable web applications with modern architectures, focusing on performance, user experience, and clean code.
+                        I build full-stack web applications using an AI-assisted development workflow, with Claude Code as my primary development tool. My focus is turning ideas into working, functional products.
                     </p>
 
                     <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">

@@ -1,9 +1,9 @@
 import React, {JSX} from "react";
 
 const skills = [
-    "Next.js & React", "Django & Python", "TypeScript",
-    "Supabase", "Docker", "PostgreSQL",
-    "Tailwind CSS", "AWS & Cloud"
+    "Claude Code", "Next.js", "Django",
+    "Supabase", "TypeScript", "PostgreSQL",
+    "Tailwind CSS"
 ];
 
 export default function About(): JSX.Element {
@@ -13,14 +13,16 @@ export default function About(): JSX.Element {
                 <div className="lg:col-span-3">
                     <h3 className="text-3xl font-bold text-white mb-6">About Me</h3>
                     <p className="text-gray-400 text-lg leading-relaxed">
-                        I'm a Full-stack Developer passionate about building high-performance web applications. I specialize in the 
-                        <span className="text-indigo-400"> React/Next.js ecosystem</span> for the frontend and 
-                        <span className="text-cyan-400"> Python/Django</span> for robust backend services. 
-                        My goal is to create seamless digital experiences that solve real-world problems.
+                        I build full-stack web applications using an
+                        <span className="text-indigo-400"> AI-assisted development workflow</span>, with
+                        <span className="text-cyan-400"> Claude Code</span> as my primary development tool.
+                        Next.js, Django, and Supabase are the tools in my implementation stack. My focus is on
+                        building and iterating on functional web apps that solve real problems.
                     </p>
 
                     <div className="mt-10">
-                        <h4 className="text-sm uppercase tracking-widest text-indigo-400 font-bold mb-6">Core Technologies</h4>
+                        <h4 className="text-sm uppercase tracking-widest text-indigo-400 font-bold mb-2">Tools I Use</h4>
+                        <p className="text-gray-500 text-sm mb-6">Tools used in projects, not areas of deep specialization.</p>
                         <ul className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                             {skills.map(skill => (
                                 <li key={skill} className="flex items-center gap-2 text-gray-300 bg-gray-700/30 px-4 py-2 rounded-xl border border-gray-600/30">
@@ -45,11 +47,15 @@ export default function About(): JSX.Element {
                             </div>
                             <div className="flex justify-between items-center py-2 border-b border-gray-700/50">
                                 <span className="text-gray-400 text-sm">Availability</span>
-                                <span className="text-green-400 text-sm font-medium">Open to roles</span>
+                                <span className="text-green-400 text-sm font-medium">Open to full-time roles</span>
+                            </div>
+                            <div className="flex justify-between items-center py-2 border-b border-gray-700/50">
+                                <span className="text-gray-400 text-sm">Experience</span>
+                                <span className="text-gray-200 text-sm font-medium">Application Builder (AI-Assisted)</span>
                             </div>
                             <div className="flex justify-between items-center py-2">
-                                <span className="text-gray-400 text-sm">Experience</span>
-                                <span className="text-gray-200 text-sm font-medium">Full-stack Specialist</span>
+                                <span className="text-gray-400 text-sm">Next</span>
+                                <span className="text-gray-200 text-sm font-medium">Cloud DevOps Program, Sept 2026</span>
                             </div>
                         </div>
                     </div>
