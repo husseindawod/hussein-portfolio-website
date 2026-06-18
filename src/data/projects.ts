@@ -14,6 +14,6 @@ export const projects: Project[] = [
         description:
             "AidLink centralizes information about everyone in your community who needs help — one place to track requests, assign cases, log assistance provided, and follow up, instead of spreadsheets or sticky notes.",
         image: "/AidLinkPreview.png",
-        url: "https://aidlink-4rkbqy1ef-hussein-s-projects14.vercel.app/",
+        url: "https://aidlink-hussein-s-projects14.vercel.app/",
     },
 ];
