@@ -16,8 +16,8 @@ export default function App(): JSX.Element {
                 <section id="projects" className="scroll-mt-32">
                     <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
                         <div>
-                            <h2 className="text-4xl font-black text-white">Selected Work</h2>
-                            <p className="text-gray-400 mt-2">A showcase of my recent technical projects.</p>
+                            <h2 className="text-4xl font-black text-white">Projects</h2>
+                            <p className="text-gray-400 mt-2">A showcase of my recent technical project.</p>
                         </div>
                         <div className="h-px flex-grow bg-gradient-to-r from-gray-800 to-transparent mx-8 hidden md:block"></div>
                     </div>
