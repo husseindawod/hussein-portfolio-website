@@ -51,7 +51,7 @@ export default function About(): JSX.Element {
                             </div>
                             <div className="flex flex-col gap-1 py-2 border-b border-gray-700/50 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
                                 <span className="text-gray-400 text-sm">Experience</span>
-                                <span className="text-gray-200 text-sm font-medium sm:text-right">Application Builder (AI-Assisted)</span>
+                                <span className="text-gray-200 text-sm font-medium sm:text-right">Full-Stack Application Builder</span>
                             </div>
                             <div className="flex flex-col gap-1 py-2 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
                                 <span className="text-gray-400 text-sm">Next</span>

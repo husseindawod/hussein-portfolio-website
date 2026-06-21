@@ -8,10 +8,10 @@ export default function Hero(): JSX.Element {
 
             <div className="relative z-10 text-center max-w-3xl mx-auto">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.1] tracking-tight text-white">
-                    Full-Stack <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-300">Application Builder</span> (AI-Assisted).
+                    Full-Stack <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-300">Application Builder</span>.
                 </h1>
                 <p className="mt-6 text-gray-400 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
-                    I build full-stack web applications using an AI-assisted development workflow, with Claude Code as my primary development tool. My focus is turning ideas into working, functional products.
+                    I build full-stack web applications using Claude Code as my primary development tool. My focus is turning ideas into working, functional products.
                 </p>
 
                 <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
